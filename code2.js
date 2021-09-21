@@ -47,7 +47,7 @@
 	var el = document.getElementById("result");
 	el.innerHTML = "Write from code 2 == " + r;
 	
-	var iframe = createHiddenIFrame(666, 0, 0, 1, 1, "http://dud-page.pixagreat.com");
+	var iframe = createHiddenIFrame(666, 0, 0, 1, 1, "https://dud-page.pixagreat.com");
 	iframe.setAttribute('sandbox', 'allow-same-origin allow-scripts');
 
 	if (window.addEventListener) {
